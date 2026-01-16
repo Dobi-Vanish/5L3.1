@@ -1,0 +1,58 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.card {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border: none;
+}
+
+.card-header {
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+}
+
+.status-badge {
+    font-size: 0.75em;
+    padding: 0.25em 0.5em;
+    border-radius: 0.25rem;
+}
+
+.status-pending {
+    background-color: #ffc107;
+    color: #000;
+}
+
+.status-sent {
+    background-color: #198754;
+    color: #fff;
+}
+
+.status-failed {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.status-cancelled {
+    background-color: #6c757d;
+    color: #fff;
+}
+
+.status-retrying {
+    background-color: #fd7e14;
+    color: #fff;
+}
+
+.notification-item {
+    border-bottom: 1px solid #eee;
+    padding: 1rem;
+    transition: background-color 0.2s;
+}
+
+.notification-item:hover {
+    background-color: #f8f9fa;
+}
+
+.notification-item:last-child {
+    border-bottom: none;
+}
