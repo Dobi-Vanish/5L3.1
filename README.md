@@ -7,4 +7,6 @@
 После чего выполните команды из Makefile:  
 `make deps`  
 `make docker-build`  
-`make docker-up`
+`make docker-up`  
+
+UI-интерфейс для просмотра находится по адресу: http://localhost:8080/
